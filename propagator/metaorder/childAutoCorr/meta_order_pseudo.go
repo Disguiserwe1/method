@@ -146,7 +146,7 @@ func (cp *childPseudo) LoadRecords(date string, amount float64) error {
 	cp.data1.asksQ = myTools.AppendGrow(cp.data1.asksQ, aq)
 	cp.data1.deltaTs = myTools.AppendGrow(cp.data1.deltaTs, ts)
 
-	fmt.Printf("日期%s records已加载.", date)
+	fmt.Printf("日期%s records已加载.\n", date)
 	return nil
 }
 
